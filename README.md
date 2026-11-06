@@ -30,42 +30,45 @@ InventoryOS follows a five-stage analytical workflow:
 
 *All images below are genuine InventoryOS development-prototype screenshots using demo/test data. They do not represent live production deployment.*
 
+**Image quality:** Screenshots were freshly captured at **3,360–3,368 px wide** (high-DPI) and saved as **lossless WebP**, without downscaling. Open an image to inspect its full-resolution details. The PDF screenshot was exported again with a 2× raster resolution.
+
+
 ### Sign-in Experience
 
 The current interface uses email/password sign-in; Supabase connection settings are configured by the application owner, not entered by end users.
 
-![InventoryOS sign-in screen](assets/login.webp)
+![InventoryOS sign-in screen](assets/login-hd.webp)
 
 
 ### Inventory Dashboard
 
 Inventory KPIs and risk indicators can be explored across national, warehouse, and product views.
 
-![InventoryOS Dashboard](assets/dashboard.webp)
+![InventoryOS Dashboard](assets/dashboard-hd.webp)
 
 ### Flexible Column Mapping
 
 Maps non-standard source columns into the InventoryOS analytical structure.
 
-![Column Mapping](assets/column-mapping.webp)
+![Column Mapping](assets/column-mapping-hd.webp)
 
 ### Data Quality Validation
 
 Identifies records requiring correction, review, or additional information before analysis.
 
-![Data Quality](assets/data-quality.webp)
+![Data Quality](assets/data-quality-hd.webp)
 
 ### Inventory Risk Prioritization
 
 Organizes potential inventory problems into a structured action list.
 
-![Action Center](assets/action-center.webp)
+![Action Center](assets/action-center-hd.webp)
 
 ### Dashboard PDF Export
 
 Generates a formatted PDF report for communicating analytical findings.
 
-![PDF Dashboard](assets/pdf-report.webp)
+![PDF Dashboard](assets/pdf-report-hd.webp)
 
 ## 4. Technical Approach
 
