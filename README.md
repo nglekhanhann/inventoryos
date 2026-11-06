@@ -28,37 +28,49 @@ InventoryOS follows a five-stage analytical workflow:
 
 ## 3. Selected Features
 
+*All images below are genuine InventoryOS development-prototype screenshots using demo/test data. They do not represent live production deployment.*
+
+### Sign-in Experience
+
+The current interface uses email/password sign-in; Supabase connection settings are configured by the application owner, not entered by end users.
+
+![InventoryOS sign-in screen](assets/login.webp)
+
+
 ### Inventory Dashboard
 
 Inventory KPIs and risk indicators can be explored across national, warehouse, and product views.
 
-![InventoryOS Dashboard](assets/dashboard.png)
+![InventoryOS Dashboard](assets/dashboard.webp)
 
 ### Flexible Column Mapping
 
 Maps non-standard source columns into the InventoryOS analytical structure.
 
-![Column Mapping](assets/column-mapping.png)
+![Column Mapping](assets/column-mapping.webp)
 
 ### Data Quality Validation
 
 Identifies records requiring correction, review, or additional information before analysis.
 
-![Data Quality](assets/data-quality.png)
+![Data Quality](assets/data-quality.webp)
 
 ### Inventory Risk Prioritization
 
 Organizes potential inventory problems into a structured action list.
 
-![Action Center](assets/action-center.png)
+![Action Center](assets/action-center.webp)
 
 ### Dashboard PDF Export
 
 Generates a formatted PDF report for communicating analytical findings.
 
-![PDF Dashboard](assets/pdf-report.png)
+![PDF Dashboard](assets/pdf-report.webp)
 
 ## 4. Technical Approach
+
+For a concise overview of the processing flow and KPI availability rules, see [Architecture](docs/architecture.md) and [KPI Methodology](docs/kpi-methodology.md).
+
 
 **Frontend:** JavaScript, HTML, CSS
 
